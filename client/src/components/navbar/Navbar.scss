@@ -1,5 +1,6 @@
 .navbar {
   background-color: #262c36;
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.1);
   color: hsla(0, 0%, 100%, 0.85);
   height: 60px;
   display: flex;
@@ -48,9 +49,10 @@
         height: 100%;
         border: none;
         outline: none;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         padding: 0 10px;
         background-color: inherit;
+        color: hsla(0, 0%, 100%, 0.85);
         //border-radius: 20px;
       }
     }

@@ -10,11 +10,11 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import DarkModeRoundedIcon from "@mui/icons-material/DarkModeRounded";
 import Icon from "../../assets/Icon.png";
 
-const Navbar = () => {
+const Navbar = ({ handleSidebarOpen }) => {
   return (
     <nav className="navbar">
       <div className="nav-1">
-        <MenuIcon />
+        <MenuIcon onClick={handleSidebarOpen} style={{ cursor: "pointer" }} />
         <img src={Icon} alt="icon" className="nav-logo" />
         <h1>CipherSchool</h1>
         <div className="nav-browse">
