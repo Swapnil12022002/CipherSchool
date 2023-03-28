@@ -16,7 +16,7 @@ const Navbar = ({ handleSidebarOpen }) => {
       <div className="nav-1">
         <MenuIcon onClick={handleSidebarOpen} style={{ cursor: "pointer" }} />
         <img src={Icon} alt="icon" className="nav-logo" />
-        <h1>CipherSchool</h1>
+        <h1>CipherSchools</h1>
         <div className="nav-browse">
           <QueryStatsIcon />
           <p>Browse</p>

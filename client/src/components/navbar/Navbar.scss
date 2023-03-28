@@ -1,8 +1,10 @@
 .navbar {
+  position: fixed;
   background-color: #262c36;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   color: hsla(0, 0%, 100%, 0.85);
   height: 60px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
